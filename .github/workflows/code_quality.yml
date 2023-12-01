@@ -24,5 +24,6 @@ jobs:
         with: 
           pr-mode : true
           upload-result: true
+          args: --linter,jetbrains/qodana-dotnet:2023.3-eap
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
